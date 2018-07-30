@@ -1,25 +1,3 @@
- 1018  paste step_1*2 
- 1019  ls
- 1020  gedit step_1a2
- 1021  ls
- 1022  cat step_1_3 | wc -l
- 1023  head -5 step_1_3 
- 1024  gedit step_1_3 
- 1025  ls
- 1026  sed -n '1,31p' step_1_3 
- 1027  sed -n '1,31p' step_1_3 | wc -l
- 1028  sed -n '1,31p' step_1_3 > step_1a3
- 1029  sed -n '32,62p' step_1_3 > step_1b3
- 1030  sed -n '63,93p' step_1_3 > step_1c3
- 1031  sed -n '94,124p' step_1_3 > step_1d3
- 1032  sed -n '125,155p' step_1_3 > step_1e3
- 1033  sed -n '156,186p' step_1_3 > step_1f3
- 1034  sed -n '187,217p' step_1_3 > step_1g3
- 1035  tmux kill-server
- 1036  tmux ls
- 1037  ls
- 1038  tmux new -s step1a3
- 1039  cd Documents/MR_Hyper
  1040  ls
  1041  tmux new -s step1b3
  1042  cd Documents/MR_Hyper
@@ -998,3 +976,25 @@
  2015  git push origin master 
  2016  history
  2017  history > bash_commands.txt
+ 2018  gedit firstfile 
+ 2019  git add .
+ 2020  git status 
+ 2021  git commit -m "Changes are good"
+ 2022  cat firstfile 
+ 2023  git log --oneline 
+ 2024  git status 
+ 2025  git push
+ 2026  gedit firstfile 
+ 2027  git add .
+ 2028  git commit -m "Changes can be bad."
+ 2029  git push
+ 2030  git pull
+ 2031  ls
+ 2032  cat firstfile 
+ 2033  gedit firstfile 
+ 2034  git add .
+ 2035  git commit -m "Changes can be good."
+ 2036  git push
+ 2037  git config --global push.default simple
+ 2038  git push
+ 2039  history > bash_commands.txt
