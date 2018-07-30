@@ -1,0 +1,1000 @@
+ 1018  paste step_1*2 
+ 1019  ls
+ 1020  gedit step_1a2
+ 1021  ls
+ 1022  cat step_1_3 | wc -l
+ 1023  head -5 step_1_3 
+ 1024  gedit step_1_3 
+ 1025  ls
+ 1026  sed -n '1,31p' step_1_3 
+ 1027  sed -n '1,31p' step_1_3 | wc -l
+ 1028  sed -n '1,31p' step_1_3 > step_1a3
+ 1029  sed -n '32,62p' step_1_3 > step_1b3
+ 1030  sed -n '63,93p' step_1_3 > step_1c3
+ 1031  sed -n '94,124p' step_1_3 > step_1d3
+ 1032  sed -n '125,155p' step_1_3 > step_1e3
+ 1033  sed -n '156,186p' step_1_3 > step_1f3
+ 1034  sed -n '187,217p' step_1_3 > step_1g3
+ 1035  tmux kill-server
+ 1036  tmux ls
+ 1037  ls
+ 1038  tmux new -s step1a3
+ 1039  cd Documents/MR_Hyper
+ 1040  ls
+ 1041  tmux new -s step1b3
+ 1042  cd Documents/MR_Hyper
+ 1043  tmux ls
+ 1044  tmux new -s step1c3
+ 1045  cd Documents/MR_Hyper
+ 1046  tmux new -s step1d3
+ 1047  cd Documents/MR_Hyper
+ 1048  tmux new -s step1e3
+ 1049  cd Documents/MR_Hyper
+ 1050  tmux new -s step1f3
+ 1051  cd Documents/MR_Hyper
+ 1052  tmux new -s step1g3
+ 1053  top
+ 1054  ls
+ 1055  cat step_1a3 | sh
+ 1056  cat ls
+ 1057  ls
+ 1058  cat step_1b3 | sh
+ 1059  cat step_1c3 | sh
+ 1060  cat step_1d3 | sh
+ 1061  cat step_1e3 | sh
+ 1062  cat step_1f3 | sh
+ 1063  cat step_1g3 | sh
+ 1064  cd Documents/freesurfer/
+ 1065  ls
+ 1066  ls -l | sort
+ 1067  tail -3 3241a/scripts/recon-all.log
+ 1068  tail -3 3030b/scripts/recon-all.log
+ 1069  tail -3 3240b/scripts/recon-all.log
+ 1070  head -2 /home/ben/Documents/MR_Hyper/step_1a3
+ 1071  gedit /home/ben/Documents/MR_Hyper/step_1a3
+ 1072  tail -3 3031a/scripts/recon-all.log
+ 1073  gedit /home/ben/Documents/MR_Hyper/step_1b3
+ 1074  tail -3 3059a/scripts/recon-all.log
+ 1075  tail -3 3059b/scripts/recon-all.log
+ 1076  gedit /home/ben/Documents/MR_Hyper/step_1c3
+ 1077  tail -3 3127b/scripts/recon-all.log
+ 1078  tail -3 3129a/scripts/recon-all.log
+ 1079  gedit /home/ben/Documents/MR_Hyper/step_dc3
+ 1080  gedit /home/ben/Documents/MR_Hyper/step_1d3
+ 1081  tail -3 3159b/scripts/recon-all.log
+ 1082  tail -3 3160a/scripts/recon-all.log
+ 1083  gedit /home/ben/Documents/MR_Hyper/step_1e3
+ 1084  tail -3 3240b/scripts/recon-all.log
+ 1085  tail -3 3241a/scripts/recon-all.log
+ 1086  gedit /home/ben/Documents/MR_Hyper/step_1f3
+ 1087  tail -3 3269b/scripts/recon-all.log
+ 1088  tail -3 3271a/scripts/recon-all.log
+ 1089  gedit /home/ben/Documents/MR_Hyper/step_1g3
+ 1090  tail -3 3361a/scripts/recon-all.log
+ 1091  tail -3 3361b/scripts/recon-all.log
+ 1092  top
+ 1093  ls
+ 1094  tmux kill-server
+ 1095  tmux ls
+ 1096  shutdown -now
+ 1097  shutdown now
+ 1098  sudo shutdown now
+ 1099  cd Documents/freesurfer/
+ 1100  ls
+ 1101  cd ..
+ 1102  cd MR_Hyper
+ 1103  ls
+ 1104  fgrep -c processor /proc/cpuinfo
+ 1105  pwd
+ 1106  tmux new -s freesurfer
+ 1107  cat /proc/cpuinfo | grep processor | wc -l
+ 1108  cat /proc/cpuinfo | grep processor
+ 1109  free -m
+ 1110  cd Documents/freesurfer/
+ 1111  ls
+ 1112  ls -l | sort
+ 1113  rm -r 3031a 3030b 3059b 3129a 3160a 3240b 3241a 3271a 3361b
+ 1114  cd ..
+ 1115  cd MR_Hyper
+ 1116  ls
+ 1117  gedit step_1_3 
+ 1118  top
+ 1119  cd ..
+ 1120  cd freesurfer/
+ 1121  ls
+ 1122  ls -l
+ 1123  ls -l | sort
+ 1124  top
+ 1125  sudo apt-get install lm-sensors 
+ 1126  sudo sensors-detect
+ 1127  sensors
+ 1128  top
+ 1129  ls
+ 1130  ls -l
+ 1131  ls -l | sort
+ 1132  top
+ 1133  sensors
+ 1134  top
+ 1135  cd Documents/freesurfer/
+ 1136  ls
+ 1137  ls -l | sort
+ 1138  TMUX LS
+ 1139  tmux ls
+ 1140  tmux a -t freesurfer
+ 1141  cores=15
+ 1142  xargs --arg-file=/home/ben/Documents/MR_Hyper/step_1_3_revised       --max-procs=$cores        --replace       --verbose       /bin/sh -c "{}"
+ 1143  top
+ 1144  tmux kill-server
+ 1145  top
+ 1146  ls
+ 1147  cd Documents/freesurfer/
+ 1148  ls
+ 1149  ls -l | sort
+ 1150  rm -r 
+ 1151  rm -r 3030b 3031a 3033a 3033b 3034a 3034b 3035a 3036a 3036b 3037a 3037b 3038a 3040a 3040b 3041a
+ 1152  rm -r 
+ 1153  ls -l | sort
+ 1154  cd ..
+ 1155  cd MR_Hyper
+ 1156  ls
+ 1157  tmux new -s freesurfer
+ 1158  top
+ 1159  htop
+ 1160  top
+ 1161  htop
+ 1162  top
+ 1163  sensors
+ 1164  htop
+ 1165  top
+ 1166  cd Documents/freesurfer/
+ 1167  ls -l | sort
+ 1168  cd 3060a
+ 1169  ls
+ 1170  cd scripts/
+ 1171  ls
+ 1172  cat recon-all.cmd 
+ 1173  ls
+ 1174  cat recon-all.log
+ 1175  cd ../../
+ 1176  ls -l | sort
+ 1177  cd 3313a/scripts/
+ 1178  ls
+ 1179  cat recon-all.log
+ 1180  cat recon-all.log | grep "3D"
+ 1181  top
+ 1182  sensors
+ 1183  top
+ 1184  cd Documents/freesurfer/
+ 1185  ls -l | sor
+ 1186  ls -l | sort
+ 1187  cd 3060a/scripts/
+ 1188  ls
+ 1189  cat lastcall.build-stamp.txt 
+ 1190  cat recon-all.cmd 
+ 1191  ls
+ 1192  cat recon-all.log
+ 1193  htop
+ 1194  cd ../../
+ 1195  ls -l | sort
+ 1196  cd ..
+ 1197  cd MR_Hyper
+ 1198  ls
+ 1199  cd ..
+ 1200  ls
+ 1201  cd /mnt/barracuda/
+ 1202  ls
+ 1203  cd DTI_MR_Hyper/
+ 1204  ls
+ 1205  cd 3001
+ 1206  ls
+ 1207  ls -l
+ 1208  cat *bval
+ 1209  cat *bvec
+ 1210  top
+ 1211  cd /home/ben/Documents/freesurfer/
+ 1212  ls
+ 1213  ls -l | sort
+ 1214  cd /mnt/barracuda/
+ 1215  cd DTI_MR_Hyper/
+ 1216  ls
+ 1217  cd TBSS/
+ 1218  ls
+ 1219  ls *dti12* | wc -l
+ 1220  cd origdata/
+ 1221  ls
+ 1222  cd ..
+ 1223  ls
+ 1224  cd FA/
+ 1225  ls
+ 1226  cd ..
+ 1227  ls
+ 1228  cd stats/
+ 1229  ls
+ 1230  ls -l | sort
+ 1231  ls
+ 1232  fsl all_FA_skeletonised.nii.gz 
+ 1233  fsleyes all_FA_skeletonised.nii.gz 
+ 1234  top
+ 1235  cd Documents/freesurfer/
+ 1236  ls -l | sort
+ 1237  sensors
+ 1238  ls -l | sort
+ 1239  ls
+ 1240  ls -l | sort
+ 1241  htop
+ 1242  top
+ 1243  pwd
+ 1244  awk
+ 1245  gawk
+ 1246  awk
+ 1247  gawk help
+ 1248  gawk
+ 1249  clear
+ 1250  gawk
+ 1251  gawk | grep "help:
+ 1252  gawk | grep "help"
+ 1253  gawk --help
+ 1254  gawk -h
+ 1255  ls
+ 1256  ls -l | sort
+ 1257  cd 3057a
+ 1258  ls
+ 1259  cd scripts/
+ 1260  ls
+ 1261  ls -l
+ 1262  cat recon-all.log
+ 1263  cd ..
+ 1264  ls
+ 1265  ls -l | sort
+ 1266  top
+ 1267  ls
+ 1268  ls -l
+ 1269  ls -l | sort
+ 1270  top
+ 1271  htop
+ 1272  ls
+ 1273  ls -l
+ 1274  ls -l | sort
+ 1275  sensors
+ 1276  top
+ 1277  htop 
+ 1278  ls
+ 1279  free
+ 1280  df
+ 1281  top
+ 1282  htop 
+ 1283  sensors
+ 1284  ls
+ 1285  top
+ 1286  ls -l | sort
+ 1287  xargs
+ 1288  man xargs
+ 1289  top
+ 1290  cd Documents/freesurfer/
+ 1291  ls
+ 1292  cd Documents/freesurfer/
+ 1293  ls
+ 1294  ls -l | sort
+ 1295  top
+ 1296  htop
+ 1297  top
+ 1298  htop
+ 1299  top
+ 1300  ls
+ 1301  ls -l | sort
+ 1302  cores = 31
+ 1303  xargs --arg-file=/home/ben/Documents/MR_Hyper/step_1_3_revised       --max-procs=$cores        --replace       --verbose       /bin/sh -c "{}"
+ 1304  cores = 31
+ 1305  cores=31
+ 1306  xargs --arg-file=/home/ben/Documents/MR_Hyper/step_1_3_revised       --max-procs=$cores        --replace       --verbose       /bin/sh -c "{}"
+ 1307  top
+ 1308  cd Documents/freesurfer/
+ 1309  ls
+ 1310  ls -l | sort
+ 1311  top
+ 1312  htop 
+ 1313  ls
+ 1314  top
+ 1315  tmux ls
+ 1316  tmux kill-server
+ 1317  top
+ 1318  ls -l | sort
+ 1319  cd 3060a/scripts/
+ 1320  ls
+ 1321  cd ../../
+ 1322  find . -name "IsRunning*"
+ 1323  find . -name "IsRunning*" -exec rm {} \;
+ 1324  find . -name "IsRunning*"
+ 1325  cd ..
+ 1326  cd MR_Hyper
+ 1327  ls
+ 1328  tmux new -s freesurfer
+ 1329  top
+ 1330  htop 
+ 1331  top
+ 1332  htop 
+ 1333  top
+ 1334  sensor
+ 1335  sensors
+ 1336  top
+ 1337  sensor
+ 1338  sensors
+ 1339  htop 
+ 1340  top
+ 1341  cd Documents/freesurfer/
+ 1342  ls
+ 1343  ls -l
+ 1344  ls -l | sort
+ 1345  tail -3 3060a/scripts/recon-all.log
+ 1346  tail -3 3062a/scripts/recon-all.log
+ 1347  tail -3 3059a/scripts/recon-all.log
+ 1348  ls -l | sort
+ 1349  tail -3 3062a/scripts/recon-all.log
+ 1350  top
+ 1351  cd ..
+ 1352  cd MR_Hyper
+ 1353  ls
+ 1354  head -3 step_1_3
+ 1355  cd ..
+ 1356  cd freesurfer/
+ 1357  tail -3 3030b/scripts/recon-all.log
+ 1358  top
+ 1359  cd ..
+ 1360  cd MR_Hyper
+ 1361  ls
+ 1362  gedit step_1_3
+ 1363  top
+ 1364  ls
+ 1365  cd ..
+ 1366  cd Documents/freesurfer/
+ 1367  ls -l | sort
+ 1368  ls
+ 1369  ls -l | sort
+ 1370  cd 3055a
+ 1371  ls
+ 1372  cd scripts/
+ 1373  ls
+ 1374  cat recon-all.log
+ 1375  cd ..
+ 1376  ls -l | sort
+ 1377  cd 3042a/scripts/
+ 1378  ls
+ 1379  cat recon-all.lo
+ 1380  cat recon-all.log
+ 1381  top
+ 1382  cd .../../
+ 1383  cd ../../
+ 1384  cd 3073b/scripts/
+ 1385  ls
+ 1386  head -5 recon-all.log
+ 1387  tail -5 recon-all.log
+ 1388  cd ../../
+ 1389  cd ..
+ 1390  cd MR_Hyper
+ 1391  ls
+ 1392  head -5 step_1_3
+ 1393  cd ..
+ 1394  cd freesurfer/
+ 1395  ls
+ 1396  rm -r 3030b 3031a 3032a 3033a 3033b 3034a 3034b 3035a 3036a 3036b 3037a 3037b 3038a 3040a 3040b 3041a 3042a 3045a 3046a 3046b 3047a 3047b 3048a 3049a 3050a 3051a 3054a 3055a 3057a 3058a 3059b
+ 1397  ls
+ 1398  ls -l
+ 1399  top | grep 3060
+ 1400  top
+ 1401  cd 3060a/
+ 1402  ls
+ 1403  cd scripts/
+ 1404  ls
+ 1405  cat recon-all.lo
+ 1406  cat recon-all.log
+ 1407  top
+ 1408  cd ..
+ 1409  ls
+ 1410  ls -s | sort
+ 1411  ls -l | sort
+ 1412  top
+ 1413  ls
+ 1414  cd ..
+ 1415  cd MR_Hyper
+ 1416  ls
+ 1417  cd ..
+ 1418  cd freesurfer/
+ 1419  ls
+ 1420  ls -l | sort
+ 1421  head -5 3062a/scripts/recon-all.log
+ 1422  tail -5 3062a/scripts/recon-all.log
+ 1423  top
+ 1424  htop 
+ 1425  top
+ 1426  ls
+ 1427  ls -l sort
+ 1428  ls -l | sort
+ 1429  cat 3084a/scripts/recon-all.log
+ 1430  top
+ 1431  ls
+ 1432  ls -l | sort
+ 1433  top
+ 1434  cd Documents/freesurfer/
+ 1435  ls
+ 1436  ls -l
+ 1437  ls -l | sort 
+ 1438  cat 3084a/scripts/
+ 1439  cat 3084a/scripts/recon-all.log
+ 1440  htop 
+ 1441  ls
+ 1442  ls -l
+ 1443  ls -l | sort
+ 1444  tail -5 3062b/scripts/recon-all.log
+ 1445  tail -5 3065a/scripts/recon-all.log
+ 1446  ls 3*/scripts/recon-all.log
+ 1447  ls -l 3*/scripts/recon-all.log
+ 1448  ls -l 3*/scripts/recon-all.log | sor
+ 1449  ls -l 3*/scripts/recon-all.log 
+ 1450  ls -l 3*/scripts/recon-all.log | grep 27
+ 1451  tail -5 3062a/scripts/recon-all.log
+ 1452  ls
+ 1453  ls -l
+ 1454  ls -l | sort
+ 1455  top
+ 1456  ls -l 3*/scripts/recon-all.log
+ 1457  ls -l 3*/scripts/recon-all.log | sort
+ 1458  ls -l 3*/scripts/recon-all.log | grep "Jul 27"
+ 1459  ls -l 3*/scripts/recon-all.log | grep "Jul 27" | sort
+ 1460  cat 3070a/scripts/recon-all.log
+ 1461  ls -l 3*/scripts/recon-all.log | grep "Jul 27" | sort
+ 1462  ls -l 3*/scripts/recon-all.log | grep "Jul 26" | sort
+ 1463  cat 3074a/scripts/recon-all.log
+ 1464  ls
+ 1465  ls -l 3*/scripts/recon-all.log | grep "Jul 26" | sort
+ 1466  top
+ 1467  ls
+ 1468  ls -l
+ 1469  ls -l | sort
+ 1470  ~~~tail -5 /home/ben/Documents/freesurfer/3060a/scripts/recon-all.log
+ 1471  tail -5 /home/ben/Documents/freesurfer/3062a/scripts/recon-all.log
+ 1472  tail -5 /home/ben/Documents/freesurfer/3062b/scripts/recon-all.log
+ 1473  tail -5 /home/ben/Documents/freesurfer/3065a/scripts/recon-all.log
+ 1474  tail -5 /home/ben/Documents/freesurfer/3068a/scripts/recon-all.log
+ 1475  tail -5 /home/ben/Documents/freesurfer/3070a/scripts/recon-all.log
+ 1476  tail -5 /home/ben/Documents/freesurfer/3072a/scripts/recon-all.log
+ 1477  tail -5 /home/ben/Documents/freesurfer/3073a/scripts/recon-all.log
+ 1478  tail -5 /home/ben/Documents/freesurfer/3073b/scripts/recon-all.log
+ 1479  tail -5 /home/ben/Documents/freesurfer/3074a/scripts/recon-all.log
+ 1480  tail -5 /home/ben/Documents/freesurfer/3077a/scripts/recon-all.log
+ 1481  tail -5 /home/ben/Documents/freesurfer/3077b/scripts/recon-all.log
+ 1482  tail -5 /home/ben/Documents/freesurfer/3079a/scripts/recon-all.log
+ 1483  tail -5 /home/ben/Documents/freesurfer/3082a/scripts/recon-all.log
+ 1484  tail -5 /home/ben/Documents/freesurfer/3082b/scripts/recon-all.log
+ 1485  top
+ 1486  ls
+ 1487  cd /mnt/barracuda/
+ 1488  ls
+ 1489  cd acf_backup/
+ 1490  ls
+ 1491  cd ballen50/
+ 1492  ls
+ 1493  cd ..
+ 1494  ls
+ 1495  rm -r ballen50/
+ 1496  ls
+ 1497  pwd
+ 1498  ls
+ 1499  top
+ 1500  cd /home/ben/Documents/
+ 1501  ls
+ 1502  cd freesurfer/
+ 1503  ls
+ 1504  ls -l | sort
+ 1505  tail 3 3062a/scripts/recon-all.log
+ 1506  ls -l | sort | grep "Jul 27" | awk '{print $9}'
+ 1507  ls -l | sort | grep "Jul 27" | awk '{print $9}' | wc -l
+ 1508  ls -l | sort | grep "Jul 27" | awk '{print $9}' | tail -15
+ 1509  ls -l | sort | grep "Jul 27" | awk '{print "tail -3 $9}'
+ 1510  ls -l | sort | grep "Jul 27" | awk '{print "tail -3"$9}'
+ 1511  ls -l | sort | grep "Jul 27" | awk '{print "tail -3"$9"/scripts/recon-all.log"}'
+ 1512  ls -l | sort | grep "Jul 27" | awk '{print "tail -3 "$9"/scripts/recon-all.log"}'
+ 1513  tail -3 3129a/scripts/recon-all.log
+ 1514  ls -l | sort | grep "Jul 27" | awk '{print "tail -3 "$9"/scripts/recon-all.log"}' | sh
+ 1515  clear
+ 1516  ls -l | sort | grep "Jul 27" | awk '{print "tail -3 "$9"/scripts/recon-all.log"}' | sh
+ 1517  ls -l | sort
+ 1518  ls -l | sort | grep "Jul 27"
+ 1519  ls -l | sort | grep "Jul 27" | head -15 | 
+ 1520  ls -l | sort | grep "Jul 27" | head -15 | awk '{print "tail -3 "$9"/scripts/recon-all.log"}' | sh
+ 1521  cat 3092a/scripts/recon-all.log 
+ 1522  top
+ 1523  ls -l | grep 3092
+ 1524  ls -l | sort | grep "Jul 27" | awk '{print "tail -3 "$9"/scripts/recon-all.log"}' | sh
+ 1525  ls -l | sort | grep "Jul 27" | awk '{print "tail -1 "$9"/scripts/recon-all.log"}' | sh
+ 1526  ls -l | sort | grep "Jul 26" | awk '{print "tail -1 "$9"/scripts/recon-all.log"}' | sh
+ 1527  ls -l | sort | grep "Jul 27" | awk '{print "tail -1 "$9"/scripts/recon-all.log"}' | sh
+ 1528  ls -l | sort | grep "Jul 27" | awk '{print "tail -2 "$9"/scripts/recon-all.log"}' | sh
+ 1529  ls -l | sort | grep "Jul 27" "hours" | awk '{print "tail -2 "$9"/scripts/recon-all.log"}' | sh
+ 1530  ls -l | sort | grep -e "Jul 27" -e "hours" | awk '{print "tail -2 "$9"/scripts/recon-all.log"}' | sh
+ 1531  ls -l | sort | grep "Jul 27" | grep "hours" | awk '{print "tail -2 "$9"/scripts/recon-all.log"}' | sh
+ 1532  ls -l | sort | grep "Jul 27" | awk '{print "tail -2 "$9"/scripts/recon-all.log"} | sh
+ 1533  ls -l | sort | grep "Jul 27" | grep "hours" | awk '{print "tail -2 "$9"/scripts/recon-all.log"}' sh
+ 1534  ls -l | sort | grep "Jul 27" | grep "hours" | awk '{print "tail -2 "$9"/scripts/recon-all.log"}'
+ 1535  ls -l | sort | grep "Jul 27" | awk '{print "tail -2 "$9"/scripts/recon-all.log"}'
+ 1536  ls -l | sort | grep "Jul 27" | awk '{print "tail -2 "$9"/scripts/recon-all.log"}' sh
+ 1537  ls -l | sort | grep "Jul 27" | awk '{print "tail -2 "$9"/scripts/recon-all.log"}' | sh
+ 1538  ls -l | sort | grep "Jul 27" | awk '{print "tail -2 "$9"/scripts/recon-all.log"}' | sh | grep "hours"
+ 1539  ls
+ 1540  ls | sort
+ 1541  ls | sort | grep 3*
+ 1542  ls 3* | sort
+ 1543  ls
+ 1544  ls | sort | awk '{print $1}' | grep 3*
+ 1545  ls | sort | awk '{print $1}'
+ 1546  ls | sort
+ 1547  ls | sort | wc -l
+ 1548  cd ..
+ 1549  cd MR_Hyper
+ 1550  ls 
+ 1551  find -type d -name "3*" | wc -l
+ 1552  awk '{print 336 - 156}'
+ 1553  awk '{336 - 156}'
+ 1554  echo 336 - 156
+ 1555  echo (336-156)
+ 1556  python
+ 1557  cd ..
+ 1558  ls
+ 1559  cd freesurfer/
+ 1560  ls
+ 1561  ls -l | wc -l
+ 1562  ls -l | sort
+ 1563  top
+ 1564  htop 
+ 1565  cd Documents/freesurfer/
+ 1566  ls -l | sort
+ 1567  ls -l | sort | grep "Jul 27" | wc -l
+ 1568  top
+ 1569  cd /mnt/barracuda/
+ 1570  ls
+ 1571  cd acf_backup/
+ 1572  ls
+ 1573  cd ballen50/
+ 1574  ls
+ 1575  cd arousing_salience/
+ 1576  ls
+ 1577  cd ..
+ 1578  ls
+ 1579  rm -r ballen50/
+ 1580  cd /mnt/barracuda/
+ 1581  ls
+ 1582  cd acf_backup/
+ 1583  ls
+ 1584  pwd
+ 1585  df
+ 1586  pwd
+ 1587  ls
+ 1588  rm -r ballen50/
+ 1589  ls
+ 1590  top
+ 1591  cd Documents/freesurfer/
+ 1592  ls
+ 1593  ls -l |sort
+ 1594  cat 3129b/scripts/recon-all.log
+ 1595  ls -l |sort
+ 1596  cat 3073b/scripts/recon-all.log
+ 1597  cd /mnt/barracuda/
+ 1598  ls
+ 1599  cd acf_backup/
+ 1600  ls
+ 1601  cd ballen50/
+ 1602  ls
+ 1603  cd arousing_salience/
+ 1604  ls
+ 1605  cd fmri_prep_fearlearning_sdc_aroma_output/
+ 1606  ls
+ 1607  cd fmriprep/
+ 1608  ls
+ 1609  cd ..
+ 1610  ls
+ 1611  rm -r ballen50/
+ 1612  ls
+ 1613  tmux new -s copy
+ 1614  top
+ 1615  cd Documents/freesurfer/
+ 1616  ls
+ 1617  ls -l
+ 1618  ls -l | sort
+ 1619  ls -l | sort | grep "Jul 27"
+ 1620  ls -l | sort | grep "Jul 27" | sed -e '1,15p'
+ 1621  ls -l | sort | grep "Jul 27" | sed -n '1,15p'
+ 1622  ls -l | sort | grep "Jul 27" | sed -n '16,30p'
+ 1623  ls -l | sort | grep "Jul 27" | wc -l
+ 1624  ls -l | sort | grep "Jul 27" | sed -n '31,45p'
+ 1625  ls -l | sort | grep "Jul 27" | sed -n '16,30p'
+ 1626  ls -l | sort | grep "Jul 27" | sed -n '16,30p' | awk '{print "tail -1 "$9"/scripts/recon-all.log"}'
+ 1627  ls -l | sort | grep "Jul 27" | sed -n '16,30p' | awk '{print "tail -1 "$9"/scripts/recon-all.log"}' | sh
+ 1628  top
+ 1629  ls -l | sort | grep "Jul 27" | sed -n '16,30p' | awk '{print "tail -1 "$9"/scripts/recon-all.log"}' | sh
+ 1630  ls -l | sort | grep "Jul 27" | sed -n '16,30p' | awk '{print "tail -1 "$9"/scripts/recon-all.log"}'
+ 1631  cat 3130a/scripts/recon-all.log
+ 1632  ls -l | sort | grep "Jul 27" | sed -n '16,30p' | awk '{print "tail -1 "$9"/scripts/recon-all.log"}'
+ 1633  ls -l | sort | grep "Jul 27" | sed -n '16,30p' | awk '{print "tail -1 "$9"/scripts/recon-all.log"}' | sh
+ 1634  ls -l | sort | grep "Jul 27" | sed -n '16,30p' | awk '{print "tail -2 "$9"/scripts/recon-all.log"}'
+ 1635  ls -l | sort | grep "Jul 27" | sed -n '16,30p' | awk '{print "tail -2 "$9"/scripts/recon-all.log"}' | sh
+ 1636  ls -l | sort | grep "Jul 27"
+ 1637  ls -l | sort | grep "Jul 27" | awk '{print "tail -1 "$9"/scripts/recon-all.log"}' | sh
+ 1638  ls -l | sort | grep "Jul 27" | awk '{print $9}'
+ 1639  top
+ 1640  ls -l | sort | grep "Jul 27" | awk '{print "tail -2 "$9"/scripts/recon-all.log"}' | sh
+ 1641  ls -l | sort | grep "Jul 27" | awk '{print "tail -2 "$9"/scripts/recon-all.log"}' | sh | grep hours
+ 1642  top
+ 1643  htop 
+ 1644  top
+ 1645  ls
+ 1646  ls -l | wc -l
+ 1647  top
+ 1648  top
+ 1649  cd /mnt/barracuda/
+ 1650  ls
+ 1651  cd acf_backup/
+ 1652  ls
+ 1653  cd ballen50/
+ 1654  ls
+ 1655  pwd
+ 1656  ls
+ 1657  ls -l
+ 1658  df
+ 1659  ls
+ 1660  ls -l
+ 1661  cd arousing_salience/
+ 1662  ls -l
+ 1663  ls -s
+ 1664  ls -S
+ 1665  du sh *
+ 1666  du sh
+ 1667  ls
+ 1668  du sh sub*
+ 1669  du s sub*
+ 1670  du sub*
+ 1671  du sh sub*
+ 1672  top
+ 1673  ls
+ 1674  ls -l
+ 1675  top
+ 1676  df
+ 1677  ls -l
+ 1678  cd sub-52/
+ 1679  ls -l
+ 1680  cd func/
+ 1681  ls
+ 1682  ls -l
+ 1683  cd ../../
+ 1684  cd sub-02/func/
+ 1685  ls
+ 1686  ls -l
+ 1687  cd ../../
+ 1688  ls
+ 1689  cd fmri_prep_fearlearning_sdc_aroma_output/
+ 1690  ls
+ 1691  ls -l
+ 1692  df
+ 1693  dh
+ 1694  du sh
+ 1695  du sh *
+ 1696  cd ..
+ 1697  df
+ 1698  ls
+ 1699  ls -l
+ 1700  df
+ 1701  cd /home/ben/Documents/freesurfer/
+ 1702  ls -l | sort
+ 1703  df
+ 1704  cd /mnt/barracuda/
+ 1705  ls
+ 1706  rm -r hcp
+ 1707  cd acf_backup/
+ 1708  ls
+ 1709  ls -l
+ 1710  df
+ 1711  ls
+ 1712  cd ballen50/
+ 1713  ls
+ 1714  ls -l
+ 1715  cd arousing_salience/
+ 1716  ls -l
+ 1717  ls
+ 1718  cd fmri_prep_fearlearning_sdc_aroma_output/
+ 1719  ls
+ 1720  -l
+ 1721  ls -l
+ 1722  cd fmriprep/
+ 1723  ls
+ 1724  ls -l
+ 1725  ls -l | sort
+ 1726  ls -l | grep "Jul 28"
+ 1727  cd sub-22/
+ 1728  ls
+ 1729  cd func/
+ 1730  ls
+ 1731  cd ..
+ 1732  ls
+ 1733  ls -l
+ 1734  ls -l | grep "28"
+ 1735  ls -l | grep "Juk 28"
+ 1736  ls -l | grep "Jul 28"
+ 1737  top
+ 1738  cd /home/ben/Documents/freesurfer/
+ 1739  ls
+ 1740  ls -l
+ 1741  ls -l | sort
+ 1742  top
+ 1743  cd Documents/freesurfer/
+ 1744  ls
+ 1745  ls -l | sort
+ 1746  ls -l | sort | grep "Jul 27" | awk '{print "tail -2 "$9"/scripts/recon-all.log"}' | sh
+ 1747  df
+ 1748  top
+ 1749  htop 
+ 1750  top
+ 1751  cd Documents/freesurfer/
+ 1752  ls
+ 1753  ls -l | sort
+ 1754  ls -l | sort | grep "Jul 28" | awk '{print "tail -2 "$9"/scripts/recon-all.log"}' | sh
+ 1755  ls -l | sort | grep "Jul 28" | awk '{print "tail -2 "$9"/scripts/recon-all.log"}' | sh | grep "error"
+ 1756  ls -l | sort | grep "Jul 28" | awk '{print "tail -2 "$9"/scripts/recon-all.log"}' | sh | grep "hour" 
+ 1757  ls -l
+ 1758  ls -l | sort | wc -l
+ 1759  ls -l | sort | grep -v "fsaverage" | wc -l
+ 1760  cd ../
+ 1761  cd MR_Hyper
+ 1762  ls
+ 1763  ls 3*
+ 1764  ls
+ 1765  ls | grep -v "step" | grep -v "mprage" | grep -v "flair"
+ 1766  ls | grep -v "step" | grep -v "mprage" | grep -v "flair" | wc -l
+ 1767  cd ..
+ 1768  cd freesurfer/
+ 1769  ls -l | sort | grep -v "fsaverage" | wc -l
+ 1770  df
+ 1771  ls
+ 1772  top
+ 1773  ls
+ 1774  cd Documents/freesurfer/
+ 1775  ls
+ 1776  ls -l
+ 1777  ls -l | sort
+ 1778  top
+ 1779  cd Documents/freesurfer/
+ 1780  ls
+ 1781  ls -l
+ 1782  ls -l | sort
+ 1783  df
+ 1784  top
+ 1785  ls
+ 1786  ls -l
+ 1787  ls -l | sort
+ 1788  ls -l | sort | grep "Jul 28" | awk '{print "tail -2 "$9"/scripts/recon-all.log"}' | sh | grep "hour" 
+ 1789  ls -l | sort | grep "Jul 28" | awk '{print "tail -2 "$9"/scripts/recon-all.log"}' | sh
+ 1790  ls -l | sort | grep "Jul 28" | awk '{print "tail -1 "$9"/scripts/recon-all.log"}' | sh
+ 1791  ls -l | sort | grep "Jul 28"
+ 1792  ls -l | sort | grep "Jul 28" | wc -l
+ 1793  ls -l | sort | grep "Jul 28" | awk '{print "tail -1 "$9"/scripts/recon-all.log"}' | sh\
+ 1794  ls -l | sort | grep "Jul 28" | awk '{print "tail -1 "$9"/scripts/recon-all.log"}' | sh
+ 1795  ls -l | sort | grep "Jul 28" | awk '{print "tail -1 "$9"/scripts/recon-all.log"}' | sh | wc -l
+ 1796  ls -l | sort | grep "Jul 28" | awk '{print "tail -1 "$9"/scripts/recon-all.log"}' | sh | grep "finished" | wc -l
+ 1797  top
+ 1798  ls
+ 1799  cd Documents/freesurfer/
+ 1800  ls
+ 1801  ls -l | sort
+ 1802  top
+ 1803  ls
+ 1804  ls -l
+ 1805  ls -l | sort
+ 1806  top
+ 1807  df
+ 1808  top
+ 1809  cd Documents/freesurfer/
+ 1810  ls
+ 1811  ls -l | sort
+ 1812  ls -l | sort | grep "Jul 29"
+ 1813  ls -l | sort | grep "Jul 29" | wc -l
+ 1814  ls -l | sort | grep "Jul 29" | 
+ 1815  ls -l | sort | grep "Jul 28" | awk '{print "tail -1 "$9"/scripts/recon-all.log"}' | sh | grep "finished"
+ 1816  ls -l | sort | grep "Jul 28" | awk '{print "tail -1 "$9"/scripts/recon-all.log"}' | sh | grep "finished" | wc -l
+ 1817  ls -l | sort | grep "Jul 28" | awk '{print "tail -2 "$9"/scripts/recon-all.log"}' | sh | grep "finished" | wc -l
+ 1818  ls -l | sort | grep "Jul 28" | awk '{print "tail -2 "$9"/scripts/recon-all.log"}' | sh | grep "hours"
+ 1819  ls -l | sort | grep "Jul 28" | awk '{print "tail -2 "$9"/scripts/recon-all.log"}' | sh | grep "hours" | wc -l
+ 1820  ls -l | sort | grep "Jul 28" | awk '{print "tail -2 "$9"/scripts/recon-all.log"}' | sh | grep "hours" | awk '{ sum+=$9} END {print sum}'
+ 1821  ls -l | sort | grep "Jul 28" | awk '{print "tail -2 "$9"/scripts/recon-all.log"}' | sh | grep "hours" | awk '{ sum+=$9 } END {print sum}'
+ 1822  ls -l | sort | grep "Jul 28" | awk '{print "tail -2 "$9"/scripts/recon-all.log"}' | sh | grep "hours" | awk '{print$9'
+ 1823  ls -l | sort | grep "Jul 28" | awk '{print "tail -2 "$9"/scripts/recon-all.log"}' | sh | grep "hours" | awk '{print$9}'
+ 1824  ls -l | sort | grep "Jul 28" | awk '{print "tail -2 "$9"/scripts/recon-all.log"}' | sh | grep "hours" 
+ 1825  ls -l | sort | grep "Jul 28" | awk '{print "tail -2 "$9"/scripts/recon-all.log"}' | sh | grep "hours" | awk '{print $3}'
+ 1826  ls -l | sort | grep "Jul 28" | awk '{print "tail -2 "$9"/scripts/recon-all.log"}' | sh | grep "hours" | awk '{print$3}'
+ 1827  ls -l | sort | grep "Jul 28" | awk '{print "tail -2 "$9"/scripts/recon-all.log"}' | sh | grep "hours" | awk '{ sum+=$3 } END {print sum}'
+ 1828  ls -l | sort | grep "Jul 28" | awk '{print "tail -2 "$9"/scripts/recon-all.log"}' | sh | grep "hours" | awk '{ sum+=$3 } END {print sum NR}'
+ 1829  ls -l | sort | grep "Jul 28" | awk '{print "tail -2 "$9"/scripts/recon-all.log"}' | sh | grep "hours" | awk '{NF==3{count++} sum+=$3 } END {print sum count}'
+ 1830  ls -l | sort | grep "Jul 28" | awk '{print "tail -2 "$9"/scripts/recon-all.log"}' | sh | grep "hours" | awk '{NF==3{count++} {sum+=$3} END {print sum count}}'
+ 1831  ls -l | sort | grep "Jul 28" | awk '{print "tail -2 "$9"/scripts/recon-all.log"}' | sh | grep "hours" | awk '{NF==3{count++} sum+=$3} END {print sum count}}'
+ 1832  ls -l | sort | grep "Jul 28" | awk '{print "tail -2 "$9"/scripts/recon-all.log"}' | sh | grep "hours" | awk '{ sum += $2; n++ } END { if (n > 0) print sum / n; }'
+ 1833  ls -l | sort | grep "Jul 28" | awk '{print "tail -2 "$9"/scripts/recon-all.log"}' | sh | grep "hours" | awk '{ sum += $3; n++ } END { if (n > 0) print sum / n; }'
+ 1834  ls -l | sort | grep "Jul 28" | awk '{print "tail -2 "$9"/scripts/recon-all.log"}' | sh | grep "hours" | awk '{ sum += $3; n++ } END { if (n > 0) print sum / n;print n }'
+ 1835  ls -l | sort | grep "Jul 28" | awk '{print "tail -2 "$9"/scripts/recon-all.log"}' | sh | grep "hours" | awk '{ sum += $3; n++ } END { if (n > 0) print sum / n; }'
+ 1836  htop 
+ 1837  echo 2 + 2
+ 1838  echo (2 + 2)
+ 1839  maths
+ 1840  math
+ 1841  add
+ 1842  3 + 4
+ 1843  print(3+4)
+ 1844  htop
+ 1845  df
+ 1846  top
+ 1847  ls -l | sort 
+ 1848  python
+ 1849  top
+ 1850  top
+ 1851  htop 
+ 1852  top
+ 1853  htop 
+ 1854  top
+ 1855  free -m
+ 1856  top
+ 1857  cd Documents/freesurfer/
+ 1858  ls
+ 1859  ls -l | sort
+ 1860  ls -l | sort | grep "Jul 29"
+ 1861  ls -l | sort | grep "Jul 28" | awk '{print "tail -2 "$9"/scripts/recon-all.log"}' | sh | grep "hours"
+ 1862  ls -l | sort | grep "Jul 29" | awk '{print "tail -2 "$9"/scripts/recon-all.log"}' | sh | grep "hours"
+ 1863  ls -l | sort | grep "Jul 29" | awk '{print "tail -2 "$9"/scripts/recon-all.log"}' | sh | grep "hours" | awk '{ sum += $3; n++ } END { if (n > 0) print sum / n;print n }'
+ 1864  ls -l | sort | grep "Jul 29"
+ 1865  ls -l | sort | grep "Jul 29" | awk '{print "tail -2 "$9"/scripts/recon-all.log"}' | sh
+ 1866  top
+ 1867  df
+ 1868  cd /mnt/barracuda/
+ 1869  ls
+ 1870  cd acf_backup/
+ 1871  ls
+ 1872  cd ballen50/
+ 1873  ls
+ 1874  cd arousing_salience/
+ 1875  ls
+ 1876  cd fmri_prep_fearlearning_sdc_aroma_output/
+ 1877  ls
+ 1878  cd fmriprep/
+ 1879  ls
+ 1880  cd sub-01/
+ 1881  ls
+ 1882  cd func/
+ 1883  ls
+ 1884  cd ../../
+ 1885  ls sub*spatial*run-01*AROMA*gz
+ 1886  ls "sub*spatial*run-01*AROMA*gz"
+ 1887  ls "*sub*spatial*run-01*AROMA*gz"
+ 1888  ls
+ 1889  ls "sub*/*sub*spatial*run-01*AROMA*gz"
+ 1890  ls *AROMAnonaggr_preproc.nii.gz
+ 1891  find . -name '*AROMAnonaggr_preproc.nii.gz'
+ 1892  find . -name '*spatial*run-01*AROMAnonaggr_preproc.nii.gz'
+ 1893  find . -name '*spatial*run-01*AROMAnonaggr_preproc.nii.gz' | wc -l
+ 1894  ls
+ 1895  ls *html
+ 1896  ls *html | sort | wc -l
+ 1897  find . -name '*spatial*run-01*AROMAnonaggr_preproc.nii.gz' | sort
+ 1898  ls -l
+ 1899  ls -l | grep "Jul 29"
+ 1900  cd sub-50
+ 1901  ls
+ 1902  cd func/
+ 1903  ls
+ 1904  cd ..
+ 1905  ls
+ 1906  cd sub-50/
+ 1907  ls
+ 1908  cd func/
+ 1909  ls
+ 1910  top
+ 1911  ls
+ 1912  cd Documents/freesurfer/
+ 1913  ls
+ 1914  ls -l | sort
+ 1915  ls -l | sort | grep "Jul 29" | awk '{print "tail -2 "$9"/scripts/recon-all.log"}' | sh
+ 1916  ls -l | sort
+ 1917  ls -l | sort | grep "Jul 29" | awk '{print "tail -1 "$9"/scripts/recon-all.log"}' | sh
+ 1918  git
+ 1919  git config --list
+ 1920  git config --global user.name "Ben Allen"
+ 1921  git config --global user.email "ballen@utk.edu"
+ 1922  git config --global user.email "ballen50@utk.edu"
+ 1923  git config --list
+ 1924  git config --global color.ui auto
+ 1925  git config --global core.editor
+ 1926  git config --global core.editor gedit
+ 1927  ls
+ 1928  mkdir teaching
+ 1929  cd teaching/
+ 1930  mkdir neuroha2018
+ 1931  ls
+ 1932  cd neuroha2018/
+ 1933  ls -a
+ 1934  cd ../../
+ 1935  ls -a
+ 1936  ls
+ 1937  cd teaching/neuroha2018/
+ 1938  git init
+ 1939  ls -a
+ 1940  cd .git/
+ 1941  ls
+ 1942  ls -l
+ 1943  cd ..
+ 1944  ls
+ 1945  gedit 
+ 1946  ls
+ 1947  less trial 
+ 1948  cat trial 
+ 1949  git
+ 1950  git --version 
+ 1951  ls
+ 1952  git status 
+ 1953  mv trial firstfile
+ 1954  ls
+ 1955  git add firstfile 
+ 1956  git status 
+ 1957  git commit 
+ 1958  git config
+ 1959  git -config
+ 1960  git config
+ 1961  git status 
+ 1962  git log
+ 1963  git log --oneline
+ 1964  ls
+ 1965  cp firstfile secondfile
+ 1966  gedit firstfile 
+ 1967  git add secondfile 
+ 1968  git commit 
+ 1969  git status 
+ 1970  git add firstfile 
+ 1971  git commit 
+ 1972  git status
+ 1973  git reset HEAD firstfile
+ 1974  git status
+ 1975  git status 
+ 1976  git --config
+ 1977  git config
+ 1978  git -config
+ 1979  git 
+ 1980  git status 
+ 1981  ls
+ 1982  git add firstfile secondfile 
+ 1983  git status 
+ 1984  git diff
+ 1985  ls
+ 1986  git add firstfile 
+ 1987  git commit 
+ 1988  ls
+ 1989  git add firstfile 
+ 1990  git commit 
+ 1991  ls
+ 1992  cat firstfile 
+ 1993  gedit firstfile 
+ 1994  git add firstfile 
+ 1995  git commit -m ""
+ 1996  git commit
+ 1997  ls
+ 1998  gedit firstfile 
+ 1999  git add firstfile 
+ 2000  git commit
+ 2001  ls
+ 2002  cd teaching/neuroha2018/
+ 2003  ls
+ 2004  pwd
+ 2005  git remote add origin https://github.com/bababen/neuroha2018.git
+ 2006  git remote -v
+ 2007  git pull origin master
+ 2008  git fetch origin
+ 2009  git pull origin master
+ 2010  git push -u origin master
+ 2011  gedit secondfile 
+ 2012  git add -A
+ 2013  git status 
+ 2014  git commit -m "Changed second file a bit."
+ 2015  git push origin master 
+ 2016  history
+ 2017  history > bash_commands.txt
